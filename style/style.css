@@ -223,11 +223,12 @@
 
     .top{
         margin-bottom: 0px;
-        height: 684px;
+        height: 70vh;
     }
     
     .middle{
         flex-direction: column;
+        margin-bottom: 9.6%;
     }
 
     .first,.second{
@@ -235,7 +236,11 @@
     }
 
     .first h4{
-        margin-bottom: 40px;
+        margin-bottom: 8%;
+    }
+
+    .firstPhoto {
+        width: 62%;
     }
 
     .second{
@@ -280,6 +285,7 @@
 
     .content h4{
         margin-left: 0;
+        font-size: 1.2vw;
     }
 
     .imgs{
@@ -293,9 +299,12 @@
     }
     
     .contentTitle h3{
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
+    .lastOne{
+        margin-bottom: 6%;
+    }
 }
 
 
@@ -303,10 +312,10 @@
 @media screen and (max-width: 426px) {
 
     .imgs h4, .content h4, .first p, .first h4 {
-        font-size: 2.8vw;
+        font-size: 2.4vw;
     }
     .top{
-        height: 373px;
+        height: 50vh;
     }
 
     .bottom{
@@ -314,7 +323,11 @@
     }
 
     .firstPhoto{
-        width: 100%;
+        width: 77%;
+    }
+
+    .first h4{
+        margin-bottom: 15%;
     }
 
     .first p{
@@ -328,7 +341,7 @@
     }
 
     .middle{
-        margin-bottom: 50px;
+        margin-bottom: 15%;
     }
 
     .lastOne{
@@ -347,6 +360,10 @@
         height: 47%;
     }
     
+    .contentTitle{
+        margin-bottom: 4vh;
+    }
+
     .contentTitle h3{
         font-size: 11vw;
     }
